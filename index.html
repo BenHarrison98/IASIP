@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+	<head>
+		<title>IASIP Episode Randomizer</title>
+	</head>
+	<body>
+		<script>
+			var a = new Array(12);
+			a[0] = "Series 1";
+			a[1] = "Series 2";
+			a[2] = "Series 3";
+			a[3] = "Series 4";
+			a[4] = "Series 5";
+			a[5] = "Series 6";
+			a[6] = "Series 7";
+			a[7] = "Series 8";
+			a[8] = "Series 9";
+			a[9] = "Series 10";
+			a[10] = "Series 11";
+			a[11] = "Series 12";
+			a[12] = "Series 13";
+			
+			var s1 = new Array(6);
+			s1[0] = "Episode 1";
+			s1[1] = "Episode 2";
+			s1[2] = "Episode 3";
+			s1[3] = "Episode 4";
+			s1[4] = "Episode 5";
+			s1[5] = "Episode 6";
+			s1[6] = "Episode 7";
+			
+			var s2 = new Array(9);
+			s2[0] = "Episode 1";
+			s2[1] = "Episode 2";
+			s2[2] = "Episode 3";
+			s2[3] = "Episode 4";
+			s2[4] = "Episode 5";
+			s2[5] = "Episode 6";
+			s2[6] = "Episode 7";
+			s2[7] = "Episode 8";
+			s2[8] = "Episode 9";
+			s2[9] = "Episode 10";
+			
+			var s3 = new Array(14);
+			s3[0] = "Episode 1";
+			s3[1] = "Episode 2";
+			s3[2] = "Episode 3";
+			s3[3] = "Episode 4";
+			s3[4] = "Episode 5";
+			s3[5] = "Episode 6";
+			s3[6] = "Episode 7";
+			s3[7] = "Episode 8";
+			s3[8] = "Episode 9";
+			s3[9] = "Episode 10";
+			s3[10] = "Episode 11";
+			s3[11] = "Episode 12";
+			s3[12] = "Episode 13";
+			s3[13] = "Episode 14";
+			s3[14] = "Episode 15";
+			
+			var s4 = new Array(12);
+			s4[0] = "Episode 1";
+			s4[1] = "Episode 2";
+			s4[2] = "Episode 3";
+			s4[3] = "Episode 4";
+			s4[4] = "Episode 5";
+			s4[5] = "Episode 6";
+			s4[6] = "Episode 7";
+			s4[7] = "Episode 8";
+			s4[8] = "Episode 9";
+			s4[9] = "Episode 10";
+			s4[10] = "Episode 11";
+			s4[11] = "Episode 12";
+			s4[12] = "Episode 13";
+			
+			var s5 = new Array(11);
+			s5[0] = "Episode 1";
+			s5[1] = "Episode 2";
+			s5[2] = "Episode 3";
+			s5[3] = "Episode 4";
+			s5[4] = "Episode 5";
+			s5[5] = "Episode 6";
+			s5[6] = "Episode 7";
+			s5[7] = "Episode 8";
+			s5[8] = "Episode 9";
+			s5[9] = "Episode 10";
+			s5[10] = "Episode 11";
+			s5[11] = "Episode 12";
+
+			var s6 = new Array(12);
+			s6[0] = "Episode 1";
+			s6[1] = "Episode 2";
+			s6[2] = "Episode 3";
+			s6[3] = "Episode 4";
+			s6[4] = "Episode 5";
+			s6[5] = "Episode 6";
+			s6[6] = "Episode 7";
+			s6[7] = "Episode 8";
+			s6[8] = "Episode 9";
+			s6[9] = "Episode 10";
+			s6[10] = "Episode 11";
+			s6[11] = "Episode 12";
+			s6[12] = "Episode 13";
+			
+			var s7 = new Array(12);
+			s7[0] = "Episode 1";
+			s7[1] = "Episode 2";
+			s7[2] = "Episode 3";
+			s7[3] = "Episode 4";
+			s7[4] = "Episode 5";
+			s7[5] = "Episode 6";
+			s7[6] = "Episode 7";
+			s7[7] = "Episode 8";
+			s7[8] = "Episode 9";
+			s7[9] = "Episode 10";
+			s7[10] = "Episode 11";
+			s7[11] = "Episode 12";
+			s7[12] = "Episode 13";
+			
+			var s8 = new Array(9);
+			s8[0] = "Episode 1";
+			s8[1] = "Episode 2";
+			s8[2] = "Episode 3";
+			s8[3] = "Episode 4";
+			s8[4] = "Episode 5";
+			s8[5] = "Episode 6";
+			s8[6] = "Episode 7";
+			s8[7] = "Episode 8";
+			s8[8] = "Episode 9";
+			s8[9] = "Episode 10";
+			
+			var s9 = new Array(9);
+			s9[0] = "Episode 1";
+			s9[1] = "Episode 2";
+			s9[2] = "Episode 3";
+			s9[3] = "Episode 4";
+			s9[4] = "Episode 5";
+			s9[5] = "Episode 6";
+			s9[6] = "Episode 7";
+			s9[7] = "Episode 8";
+			s9[8] = "Episode 9";
+			s9[9] = "Episode 10";
+			
+			var s10 = new Array(9);
+			s10[0] = "Episode 1";
+			s10[1] = "Episode 2";
+			s10[2] = "Episode 3";
+			s10[3] = "Episode 4";
+			s10[4] = "Episode 5";
+			s10[5] = "Episode 6";
+			s10[6] = "Episode 7";
+			s10[7] = "Episode 8";
+			s10[8] = "Episode 9";
+			s10[9] = "Episode 10";
+			
+			var s11 = new Array(9);
+			s11[0] = "Episode 1";
+			s11[1] = "Episode 2";
+			s11[2] = "Episode 3";
+			s11[3] = "Episode 4";
+			s11[4] = "Episode 5";
+			s11[5] = "Episode 6";
+			s11[6] = "Episode 7";
+			s11[7] = "Episode 8";
+			s11[8] = "Episode 9";
+			s11[9] = "Episode 10";
+			
+			var s12 = new Array(9);
+			s12[0] = "Episode 1";
+			s12[1] = "Episode 2";
+			s12[2] = "Episode 3";
+			s12[3] = "Episode 4";
+			s12[4] = "Episode 5";
+			s12[5] = "Episode 6";
+			s12[6] = "Episode 7";
+			s12[7] = "Episode 8";
+			s12[8] = "Episode 9";
+			s12[9] = "Episode 10";
+			
+			
+			var series = Math.floor(Math.random() * a.length);
+			var rs1 = Math.floor(Math.random() * s1.length);
+			var rs2 = Math.floor(Math.random() * s2.length);
+			var rs3 = Math.floor(Math.random() * s3.length);
+			var rs4 = Math.floor(Math.random() * s4.length);
+			var rs5 = Math.floor(Math.random() * s5.length);
+			var rs6 = Math.floor(Math.random() * s6.length);
+			var rs7 = Math.floor(Math.random() * s7.length);
+			var rs8 = Math.floor(Math.random() * s8.length);
+			var rs9 = Math.floor(Math.random() * s9.length);
+			var rs10 = Math.floor(Math.random() * s10.length);
+			var rs11 = Math.floor(Math.random() * s11.length);
+			var rs12 = Math.floor(Math.random() * s12.length);
+			
+
+			
+			document.write(a[series]);
+			
+			if(series == 0){
+				document.write(s1[rs1]);
+			}	// Series 1
+			
+			if(series == 1){
+				document.write(s2[rs2]);
+			}	// Series 2
+			
+			if(series == 2){
+				document.write(s3[rs3]);
+			}	// Series 3
+			
+			if(series == 3){
+				document.write(s4[rs4]);
+			}	// Series 4
+			
+			if(series == 4){
+				document.write(s5[rs5]);
+			}	// Series 5
+			
+			if(series == 5){
+				document.write(s6[rs6]);
+			}	// Series 6
+			
+			if(series == 6){
+				document.write(s7[rs7]);
+			}	// Series 7
+			
+			if(series == 7){
+				document.write(s8[rs8]);
+			}	// Series 8
+			
+			if(series == 8){
+				document.write(s9[rs9]);
+			}	// Series 9
+			
+			if(series == 9){
+				document.write(s10[rs10]);
+			}	// Series 10
+			
+			if(series == 10){
+				document.write(s11[rs11]);
+			}	// Series 11
+			
+			if(series == 11){
+				document.write(s12[rs12]);
+			}	// Series 12		
+			
+		</script>
+	</body>
+</html>
